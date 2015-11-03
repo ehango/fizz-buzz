@@ -1,6 +1,6 @@
 
 $(function() {	
-	for (var i = 1; i <= 15; i++) {
+	for (var i = 1; i <= 100; i++) {
 	   if (i%15===0) {
 	   	document.write('<p>' + 'Fizz Buzz' + '</p>');
 	   }
@@ -15,8 +15,6 @@ $(function() {
 	   	document.write('<p>' + 'Buzz' + '</p>');
 	   	//document.write('Buzz');
 	   }
-
-
 
 	  else {
 	  	//$('body').append('<p>' + i + '</p>');
